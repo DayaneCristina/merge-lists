@@ -1,7 +1,7 @@
 # Desafio time Metaplane 
 
 <div align="center">
-  <img src="img/lojas-americanas.png" alt="Lojas Americanas" width="60%">
+  <img src="img/lojas-americanas.png" alt="Lojas Americanas" width="40%">
 </div>
 
 ---
@@ -34,7 +34,7 @@ GET /merge: Endpoint para mesclar as listas previamente salvas.
 ## 🔍 Como Rodar
 
 * Certifique-se de instalar o pacote Gin usando go get -u github.com/gin-gonic/gin antes de executar código.
-* Clone o repositório: git clone https://github.com/DayaneCristina/Americanas?tab=readme-ov-file
+* Clone o repositório: git clone https://github.com/DayaneCristina/Americanas
 * Navegue até o diretório do projeto: cd merge-lists
 * Execute o servidor: go run main.go
 
@@ -42,6 +42,8 @@ GET /merge: Endpoint para mesclar as listas previamente salvas.
 
 <div style="display: inline_block">
   <img align="center" alt="icone-GIT" height="60" src="https://github.com/devicons/devicon/blob/master/icons/git/git-original.svg">
+  &nbsp;&nbsp;
+  <img align="center" alt="icone-Go" height="60" src="https://github.com/devicons/devicon/blob/master/icons/github/github-original.svg">
   &nbsp;&nbsp;
   <img align="center" alt="icone-VS-CODE" height="60" src="https://github.com/devicons/devicon/blob/master/icons/vscode/vscode-original.svg">
   &nbsp;&nbsp;
