@@ -24,10 +24,9 @@ mergeTwoLists(list1 *ListNode, list2 *ListNode) *ListNode: Função que recebe d
 POST /saveLists: Endpoint para salvar duas listas ordenadas.
 GET /merge: Endpoint para mesclar as listas previamente salvas.
 
-### teste:
+### Testes realizados:
 * Os testes podem ser encontrados no diretório tests e podem ser executados usando o comando:
   go test ./tests
-
 
 <br>
 
