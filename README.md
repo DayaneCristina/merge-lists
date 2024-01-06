@@ -9,7 +9,7 @@
 ## :handshake: 
 
 | Perfil | Nome | Localização | Github | Linkedin |
-| ---------------- | ----- | --------- | --------- | --------- | --------- |
+| ---------------- | ----- | --------- | --------- | --------- |
 
 | <img width="100" alt="Foto de Perfil da Dayane" src="img/perfil_dayane.jpg"> | `Dayane Cristina Santos` | Santos - SP | <a href="https://github.com/DayaneCristina"> <img height="30" alt="GitHub da Dayane" src="https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white"></a> | [![Github Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https:https://www.linkedin.com/in/dayane-cristin) |
 
