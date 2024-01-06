@@ -20,13 +20,6 @@ Este projeto consiste em uma implementação para mesclar duas listas ordenadas 
 
 ### Funcionalidades
 mergeTwoLists(list1 *ListNode, list2 *ListNode) *ListNode: Função que recebe duas listas ordenadas e retorna uma nova lista ordenada mesclando os elementos das duas.
-### API:
-POST /saveLists: Endpoint para salvar duas listas ordenadas.
-GET /merge: Endpoint para mesclar as listas previamente salvas.
-
-### Testes realizados:
-* Os testes podem ser encontrados no diretório tests e podem ser executados usando o comando:
-  go test ./tests
 
 <br>
 
@@ -36,6 +29,14 @@ GET /merge: Endpoint para mesclar as listas previamente salvas.
 * Clone o repositório: git clone https://github.com/DayaneCristina/Americanas
 * Navegue até o diretório do projeto: cd merge-lists
 * Execute o servidor: go run main.go
+
+### API:
+POST /saveLists: Endpoint para salvar duas listas ordenadas.
+GET /merge: Endpoint para mesclar as listas previamente salvas.
+
+### Testes realizados:
+* Os testes podem ser encontrados no diretório tests e podem ser executados usando o comando:
+  go test ./tests
 
 ## **Tecnologias Utilizadas:**
 
