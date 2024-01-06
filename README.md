@@ -18,9 +18,6 @@
 ## Objetivo
 Este projeto consiste em uma implementação para mesclar duas listas ordenadas de números e também oferece uma API simples para salvar essas listas e realizar a operação de mesclagem.
 
-### Funcionalidades
-mergeTwoLists(list1 *ListNode, list2 *ListNode) *ListNode: Função que recebe duas listas ordenadas e retorna uma nova lista ordenada mesclando os elementos das duas.
-
 <br>
 
 ## 🔍 Como Rodar
