@@ -8,7 +8,7 @@
 
 ## :handshake: 
 
-| Perfil | Nome | Localização | Github | Linkedin |
+|   Perfil   |   Nome   |   Localização   |   Github   |   Linkedin   |
 | ---------------- | ----- | --------- | --------- | --------- |
 
 | <img width="100" alt="Foto de Perfil da Dayane" src="img/perfil_dayane.jpg"> | `Dayane Cristina Santos` | Santos - SP | <a href="https://github.com/DayaneCristina"> <img height="30" alt="GitHub da Dayane" src="https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white"></a> | [![Github Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https:https://www.linkedin.com/in/dayane-cristin) |
@@ -34,7 +34,7 @@ GET /merge: Endpoint para mesclar as listas previamente salvas.
 ## 🔍 Como Rodar
 
 * Certifique-se de instalar o pacote Gin usando go get -u github.com/gin-gonic/gin antes de executar código.
-* Clone o repositório: git clone https://github.com/XXXXX // colocar meu link
+* Clone o repositório: git clone https://github.com/DayaneCristina/Americanas?tab=readme-ov-file
 * Navegue até o diretório do projeto: cd merge-lists
 * Execute o servidor: go run main.go
 
