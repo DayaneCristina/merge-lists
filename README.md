@@ -1,21 +1,17 @@
 # Desafio time Metaplane 
 
 <div align="center">
-  <img src="img/lojas_americanas.png" alt="Lojas Americanas" width="60%">
+  <img src="img/lojas-americanas.png" alt="Lojas Americanas" width="60%">
 </div>
 
 ---
 
 ## :handshake: 
 
-<div>
-  <img src="img/logos/logo_go_devs.jpg" alt="Logo da Equipe Go Devs" width="200">
-</div>
-
 | Perfil | Nome | Localização | Github | Linkedin |
 | ---------------- | ----- | --------- | --------- | --------- | --------- |
 
-| <img width="100" alt="Foto de Perfil da Dayane" src="img/perfil_equipe/perfil_dayane.jpg"> | `Dayane Cristina Santos` | Santos - SP | <a href="https://github.com/DayaneCristina"> <img height="30" alt="GitHub da Dayane" src="https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white"></a> | [![Github Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https:https://www.linkedin.com/in/dayane-cristin) |
+| <img width="100" alt="Foto de Perfil da Dayane" src="img/perfil_dayane.jpg"> | `Dayane Cristina Santos` | Santos - SP | <a href="https://github.com/DayaneCristina"> <img height="30" alt="GitHub da Dayane" src="https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white"></a> | [![Github Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https:https://www.linkedin.com/in/dayane-cristin) |
 
 # Briefing
 
@@ -49,7 +45,6 @@ GET /merge: Endpoint para mesclar as listas previamente salvas.
   &nbsp;&nbsp;
   <img align="center" alt="icone-VS-CODE" height="60" src="https://github.com/devicons/devicon/blob/master/icons/vscode/vscode-original.svg">
   &nbsp;&nbsp;
-  <img align="center" alt="icone-Go" height="60" src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg">
+  <img align="center" alt="icone-Go" height="60" src="https://github.com/devicons/devicon/blob/master/icons/go/go-original.svg">
   &nbsp;&nbsp;
-  <img align="center" alt="icone-SQL" height="60" src="https://github.com/devicons/devicon/blob/master/icons/postgresql/postgresql-original.svg">
 </div>
