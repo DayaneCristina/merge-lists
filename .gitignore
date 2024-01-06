@@ -1,0 +1,29 @@
+# Arquivos binários ou executáveis
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Arquivos de build ou compilação
+*.o
+*.a
+*.out
+
+# Arquivos de configuração
+*.env
+
+# Arquivos específicos do Go
+/bin/
+/pkg/
+/vendor/
+
+# Arquivos gerados automaticamente
+.vscode/
+.idea/
+*.iml
+
+# Arquivos de log
+*.log
+
+# Dependências e módulos
+go.sum
