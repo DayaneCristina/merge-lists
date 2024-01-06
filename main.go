@@ -10,7 +10,7 @@ type ListNode struct {
 }
 
 func mergeTwoLists(list1 *ListNode, list2 *ListNode) *ListNode {
-	dummy := &ListNode{} // Nó fictício para começar a lista mesclada
+	dummy := &ListNode{} // inicio do Nó fictício para mesclada a lista
 	current := dummy
 
 	for list1 != nil && list2 != nil {
@@ -31,7 +31,7 @@ func mergeTwoLists(list1 *ListNode, list2 *ListNode) *ListNode {
 		current.Next = list2
 	}
 
-	return dummy.Next // Retorna a lista mesclada, ignorando o nó fictício inicial
+	return dummy.Next // aqui retorna a lista mesclada, ignorando o nó fictício inicial
 }
 
 func main() {
@@ -46,5 +46,5 @@ func main() {
 		fmt.Printf("%d -> ", result.Val)
 		result = result.Next
 	}
-	fmt.Println("nil")
+	fmt.Println("Americanas ;)")
 }
