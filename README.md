@@ -8,7 +8,7 @@
 
 ## :handshake: Realizado por:
 
-<img width="100" alt="Foto de Perfil da Dayane" src="img/perfil_dayane.jpg"> <br>  `Dayane Cristina Santos` <br> Santos - SP <br><br> [![Github Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https:https://www.linkedin.com/in/dayane-cristin)
+<img width="100" alt="Foto de Perfil da Dayane" src="img/perfil_dayane.jpg"> <br>  `Dayane Cristina Santos` <br> Santos - SP <br><br> [![Github Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dayane-cristin)
 
 # Briefing
 
