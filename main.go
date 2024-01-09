@@ -2,49 +2,24 @@ package main
 
 import (
 	"fmt"
+	L "americanas.teste/lists"
 )
 
-type ListNode struct {
-	Val  int
-	Next *ListNode
-}
-
-func mergeTwoLists(list1 *ListNode, list2 *ListNode) *ListNode {
-	dummy := &ListNode{} // inicio do Nó fictício para mesclada a lista
-	current := dummy
-
-	for list1 != nil && list2 != nil {
-		if list1.Val < list2.Val {
-			current.Next = list1
-			list1 = list1.Next
-		} else {
-			current.Next = list2
-			list2 = list2.Next
-		}
-		current = current.Next
-	}
-
-	// Se uma das listas terminou, anexa o restante da outra lista
-	if list1 != nil {
-		current.Next = list1
-	} else {
-		current.Next = list2
-	}
-
-	return dummy.Next // aqui retorna a lista mesclada, ignorando o nó fictício inicial
-}
-
 func main() {
-	// Exemplo de uso
-	list1 := &ListNode{1, &ListNode{2, &ListNode{4, nil}}}
-	list2 := &ListNode{1, &ListNode{3, &ListNode{5, nil}}}
+	list1 := []int{1,2,4}
+	list2 := []int{1,3,5}
 
-	result := mergeTwoLists(list1, list2)
+	result := L.MergeTwoLists(list1, list2)
 
 	fmt.Println("Lista mesclada:")
+	
 	for result != nil {
-		fmt.Printf("%d -> ", result.Val)
+		fmt.Printf("%d", result.Val)
+
+		if (result.Next != nil ) {
+			fmt.Printf(" -> ")
+		}
+
 		result = result.Next
 	}
-	fmt.Println("Americanas ;)")
 }
