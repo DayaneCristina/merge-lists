@@ -33,7 +33,7 @@ Este projeto consiste em mesclar duas listas ordenadas de números e também ofe
   
     `docker-compose up --build`
 
-    Se não possuir o `docker`, rode o comando abaixo:
+    Se não possuir o `docker`, certifique-se de ter o `go` instalado e rode o comando abaixo:
 
     `go run main.go `
 
@@ -64,7 +64,7 @@ Os testes podem ser encontrados no diretório *tests* e podem ser executados usa
 
   `docker exec -it americanas.teste.api go test ./tests`
 
-Ou, caso não possua o docker, rodar:
+Ou, caso não possua o docker, rodar (já com o `go` devidamente instalado):
 
 `go test ./tests`
 
