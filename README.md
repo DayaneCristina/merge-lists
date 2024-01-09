@@ -79,4 +79,6 @@ Ou, caso não possua o docker, rodar (já com o `go` devidamente instalado):
   &nbsp;&nbsp;
   <img align="center" alt="icone-Go" height="60" src="https://github.com/devicons/devicon/blob/master/icons/go/go-original.svg">
   &nbsp;&nbsp;
+  <img align="center" alt="icone-Docker" height="60" src="https://github.com/devicons/devicon/blob/master/icons/docker/docker-original.svg">
+  &nbsp;&nbsp;
 </div>
