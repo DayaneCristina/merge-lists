@@ -2,24 +2,18 @@ package main
 
 import (
 	"fmt"
+	"github.com/gin-gonic/gin"
 	L "americanas.teste/lists"
 )
 
 func main() {
-	list1 := []int{1,2,4}
-	list2 := []int{1,3,5}
+	r := gin.Default()
 
-	result := L.MergeTwoLists(list1, list2)
+	r.POST("/saveLists", L.SaveLists)
 
-	fmt.Println("Lista mesclada:")
-	
-	for result != nil {
-		fmt.Printf("%d", result.Val)
+	r.GET("/merge", L.Merge)
 
-		if (result.Next != nil ) {
-			fmt.Printf(" -> ")
-		}
+	fmt.Println("Server running on port 8080")
 
-		result = result.Next
-	}
+	r.Run(":8080")
 }

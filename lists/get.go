@@ -1,15 +1,12 @@
 package lists
 
 import (
-	"github.com/gin-gonic/gin"
+	"errors"
 )
 
-func Get(c *gin.Context) {
+func GetMerged() ([]int, error) {
 	if savedList1 == nil || savedList2 == nil {
-		c.JSON(400, gin.H{
-			"error": "Lists not saved yet",
-		})
-		return
+		return []int{}, errors.New("Listas não encontradas")
 	}
 
 	result := MergeTwoLists(savedList1, savedList2)
@@ -20,8 +17,6 @@ func Get(c *gin.Context) {
 		mergedValues = append(mergedValues, result.Val)
 		result = result.Next
 	}
-
-	c.JSON(200, gin.H{
-		"mergedList": mergedValues,
-	})
+	
+	return mergedValues, nil
 }

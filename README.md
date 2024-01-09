@@ -8,32 +8,65 @@
 
 ## :handshake: Realizado por:
 
-|      Perfil      |   Nome   |   Localização   |   Github   |   Linkedin   |
-| ---------------- |  -----   |    ---------    | ---------  |   ---------  |
-
-| <img width="100" alt="Foto de Perfil da Dayane" src="img/perfil_dayane.jpg"> | `Dayane Cristina Santos` | Santos - SP | <a href="https://github.com/DayaneCristina"> <img height="30" alt="GitHub da Dayane" src="https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white"></a> | [![Github Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https:https://www.linkedin.com/in/dayane-cristin) |
+<img width="100" alt="Foto de Perfil da Dayane" src="img/perfil_dayane.jpg"> <br>  `Dayane Cristina Santos` <br> Santos - SP <br><br> [![Github Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https:https://www.linkedin.com/in/dayane-cristin)
 
 # Briefing
 
 ## Objetivo
-Este projeto consiste em uma implementação para mesclar duas listas ordenadas de números e também oferece uma API simples para salvar essas listas e realizar a operação de mesclagem.
+Este projeto consiste em mesclar duas listas ordenadas de números e também oferecer uma API simples para salvar essas listas e realizar a operação de mesclagem.
 
 <br>
 
 ## 🔍 Como Rodar
 
-* Certifique-se de instalar o pacote Gin usando go get -u github.com/gin-gonic/gin antes de executar código.
-* Clone o repositório: git clone https://github.com/DayaneCristina/Americanas
-* Navegue até o diretório do projeto: cd merge-lists
-* Execute o servidor: go run main.go
+1. Certifique-se de ter instalado em sua máquina o `git`
+  
+1. Clone o repositório
 
-### API:
-POST /saveLists: Endpoint para salvar duas listas ordenadas.
-GET /merge: Endpoint para mesclar as listas previamente salvas.
+    `git clone https://github.com/DayaneCristina/merge-lists`
 
-### Testes realizados:
-* Os testes podem ser encontrados no diretório tests e podem ser executados usando o comando:
-  go test ./tests
+2. Navegue até o diretório do projeto
+
+    `cd merge-lists`
+
+3. Caso tenha o `docker` / `docker compose` instalados na sua máquina, execute o comando abaixo para subir a API: 
+  
+    `docker-compose up --build`
+
+    Se não possuir o `docker`, rode o comando abaixo:
+
+    `go run main.go `
+
+## API
+#### [POST] /saveLists
+Endpoint para salvar duas listas ordenadas. Deve receber em seu `body` os dois campos `list1` e `list2` contendo um *array* de números inteiros.
+
+| cURL
+```
+curl --location 'localhost:8080/saveLists' \
+--header 'Content-Type: application/json' \
+--data '{
+    "list1": [1,3,2,4],
+    "list2": [2,5,6,7]
+}'
+```
+
+#### [GET] /merge
+Endpoint para mesclar as listas previamente salvas.
+
+| cURL
+```
+curl --location 'localhost:8080/merge'
+```
+
+### Testes unitários:
+Os testes podem ser encontrados no diretório *tests* e podem ser executados usando o comando abaixo após subir a aplicação via `docker` (como demonstrado no passo 4.)
+
+  `docker exec -it americanas.teste.api go test ./tests`
+
+Ou, caso não possua o docker, rodar:
+
+`go test ./tests`
 
 ## **Tecnologias Utilizadas:**
 

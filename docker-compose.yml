@@ -1,0 +1,11 @@
+version: '3.2'
+
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: americanas.teste.api
+    ports:
+      - 8080:8080
+    command: go run main.go
