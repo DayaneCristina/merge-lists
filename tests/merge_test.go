@@ -8,8 +8,8 @@ import (
 )
 
 func TestMergeTwoLists(t *testing.T) {
-	list1 := []int{1, 2, 4}
-	list2 := []int{1, 3, 5}
+	list1 := L.ArrayToList([]int{1, 2, 4})
+	list2 := L.ArrayToList([]int{1, 3, 5})
 
 	expected := []int{1, 1, 2, 3, 4, 5}
 
@@ -19,8 +19,8 @@ func TestMergeTwoLists(t *testing.T) {
 		t.Errorf("Resultado incorreto. Esperado: %v, Obtido: %v", expected, getListValues(result))
 	}
 
-	list3 := []int{2, 3, 4}
-	list4 := []int{1, 5, 6}
+	list3 := L.ArrayToList([]int{2, 3, 4})
+	list4 := L.ArrayToList([]int{1, 5, 6})
 
 	expected = []int{1, 2, 3, 4, 5, 6}
 

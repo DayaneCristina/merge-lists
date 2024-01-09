@@ -4,29 +4,26 @@ import (
 	S "americanas.teste/structs"
 )
 
-func MergeTwoLists(list1 []int, list2 []int) *S.ListNode {
-	head1 := ArrayToList(list1)
-	head2 := ArrayToList(list2)
-
+func MergeTwoLists(list1 *S.ListNode, list2 *S.ListNode) *S.ListNode {
 	dummy := &S.ListNode{}
 	current := dummy
 
-	for head1 != nil && head2 != nil {
-		if head1.Val < head2.Val {
-			current.Next = head1
-			head1 = head1.Next
+	for list1 != nil && list2 != nil {
+		if list1.Val < list2.Val {
+			current.Next = list1
+			list1 = list1.Next
 		} else {
-			current.Next = head2
-			head2 = head2.Next
+			current.Next = list2
+			list2 = list2.Next
 		}
 
 		current = current.Next
 	}
 
-	if head1 != nil {
-		current.Next = head1
+	if list1 != nil {
+		current.Next = list1
 	} else {
-		current.Next = head2
+		current.Next = list2
 	}
 
 	return dummy.Next

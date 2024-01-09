@@ -9,7 +9,10 @@ func GetMerged() ([]int, error) {
 		return []int{}, errors.New("Listas não encontradas")
 	}
 
-	result := MergeTwoLists(savedList1, savedList2)
+	list1 := ArrayToList(savedList1)
+	list2 := ArrayToList(savedList2)
+
+	result := MergeTwoLists(list1, list2)
 
 	mergedValues := []int{}
 
@@ -17,6 +20,6 @@ func GetMerged() ([]int, error) {
 		mergedValues = append(mergedValues, result.Val)
 		result = result.Next
 	}
-	
+
 	return mergedValues, nil
 }
