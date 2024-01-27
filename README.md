@@ -1,9 +1,5 @@
 # Desafio time Metaplane 
 
-<div align="center">
-  <img src="img/lojas-americanas.png" alt="Lojas Americanas" width="40%">
-</div>
-
 ---
 
 ## :handshake: Realizado por:
